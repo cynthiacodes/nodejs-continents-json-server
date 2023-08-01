@@ -44,3 +44,18 @@ export const OCEANIA: Continent = {
     pctOfTotal: 0.54,
   },
 };
+
+export const AFRICA: Continent = {
+  name: "Africa",
+  area: {
+    sqKm: 30_370_000,
+    sqMiles: 11_730_000,
+    pctOfTotal: 20.4,
+  },
+  highestPoint: "Mount Kilimanjaro",
+  population: {
+    people: { count: 1.34, unit: "billion" },
+    pctOfTotal: 16.6,
+  },
+};
+
